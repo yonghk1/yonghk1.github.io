@@ -1,0 +1,88 @@
+body{
+  background: url('http://hollywoodmetal.com/wp-content/uploads/beast-s-dungeon-249112.jpg') no-repeat;
+
+
+}
+
+h1{
+font-family: 'VT323', Arial, serif;
+color: #FF3A3A;
+text-align: center;
+}
+
+
+
+h2{
+font-family: 'VT323', Arial, serif;
+color: #ff3a3a;
+font-weight: bold;
+}
+
+#start {
+    position:fixed;
+    top: 40%;
+    left: 40%;
+
+}
+
+#bigGrid{
+  text-align: center;
+  display: none;
+  position: relative;
+  top: 80px;
+}
+
+
+#grid {
+  display: inline-block;
+
+}
+
+.board{
+    height: 150px;
+    width: 150px;
+    background-color: rgba(255, 250, 240, 0.5);
+    float: left;
+    margin: 10px;
+    z-index: 0;
+    position:relative;
+    box-shadow: 10px 5px;
+}
+
+
+
+
+#b4{
+    clear:left;
+    float:left;
+}
+#b7{
+    clear:left;
+    float:left;
+}
+
+
+.ring{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-color: transparent;
+    border: 8px solid #00DB00;
+    z-index: 1;
+    position: relative;
+    margin: 20px;
+}
+
+.x {
+
+    color: red;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 125px;
+    position: relative;
+    z-index: 1;
+    margin-top: -25px;
+    margin-left: 0;
+
+}
+
+
